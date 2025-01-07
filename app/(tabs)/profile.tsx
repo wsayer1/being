@@ -1,9 +1,9 @@
 import { Text, View, StyleSheet } from "react-native";
 
-export default function Index() {
+export default function ProfileScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Home</Text>
+      <Text style={styles.text}>Profile</Text>
     </View>
   );
 }
@@ -19,10 +19,5 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#202020",
-  },
-  button: {
-    backgroundColor: "#fff",
-    padding: 10,
-    borderRadius: 5,
   },
 });
